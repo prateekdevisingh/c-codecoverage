@@ -26,8 +26,9 @@ Next lets start with compiling our code. Here my source file name is menu.cpp
 
         $ g++ -o menu.out --coverage menu.cpp
         
-The –coverage option here is used to compile and link code needed for coverage analysis. You will find a menu.gcno file in the folder. Next we need to export two variables namely GCOV_PREFIX and GCOV_PREFIX_STRIP. Set GCOV_PREFIX to the folder you want the output files to be in. 
-Note : GCOV_PREFIX and GCOV_PREFIX_STRIP are important variable to export       
+The –coverage option here is used to compile and link code needed for coverage analysis. You will find a menu.gcno file in the folder. Next we need to export two variables namely GCOV_PREFIX and GCOV_PREFIX_STRIP. Set GCOV_PREFIX to the folder you want the output files to be in.
+
+## Note : GCOV_PREFIX and GCOV_PREFIX_STRIP are important variables step to export       
        
         $ ls
         menu.cpp  menu.out  menu.gcno      // you can see the new file menu.gcno
@@ -63,7 +64,8 @@ now lets simply run the code.
             5: Exit
             Enter your choice :5
  
- Note : Dont do CTRL + C on ubuntu , just choose 5 in Enter your choice: .
+ ## Note : Dont do CTRL + C on ubuntu , just choose 5 in Enter your choice: .
+ 
  Now we can see a menu.gcda file in data folder. Copy the .gcno file generated earlier to the data folder.
  
           $ ls
@@ -104,7 +106,8 @@ Now its time to enjoy the fruits of your labor 😛 . Go into the res folder and
         $ cd res
         
 look for index.html , simply open this file in any browser . 
-For result matching, check image like i have stored in git repo folder name = end-result-look-after-all-steps/index.html , you already download.
+
+## For result matching, check image like i have stored in git repo folder name = end-result-look-after-complete-steps/index.html , you already download.
      
  
     
