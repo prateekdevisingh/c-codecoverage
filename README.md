@@ -32,7 +32,7 @@ The –coverage option here is used to compile and link code needed for coverage
         $ pwd
         /root/gtest
         
-For me , the project is in  "/root/gtest" and  inside this i have created a folder named data where i want the data files or .gcda file to be generated. so i set my GCOV_PREFIX to "/root/gtest" and the GCOV_PREFIX_STRIP equal to the the number of forward slashes or "/" in the path.        
+For me , the project is in  "/root/gtest" and  inside this i have created a folder named gtest where i want the data files or .gcda file to be generated. so i set my GCOV_PREFIX to "/root/gtest" and the GCOV_PREFIX_STRIP equal to the the number of forward slashes or "/" in the path.        
 
 
         $ export GCOV_PREFIX="/root/gtest"
