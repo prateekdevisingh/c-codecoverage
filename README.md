@@ -62,7 +62,8 @@ now lets simply run the code.
             4: Divide
             5: Exit
             Enter your choice :5
-            
+ 
+ Note : Dont do CTRL + C on ubuntu , just choose 5 in Enter your choice: .
  Now we can see a menu.gcda file in data folder. Copy the .gcno file generated earlier to the data folder.
  
           $ ls
