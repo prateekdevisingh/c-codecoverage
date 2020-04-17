@@ -23,9 +23,11 @@ Step 3: Clone git repo ,
 Next lets start with compiling our code. Here my source file name is menu.cpp        
         $ g++ -o menu.out --coverage menu.cpp
         
-The –coverage option here is used to compile and link code needed for coverage analysis. You will find a menu.gcno file in the folder. Next we need to export two variables namely GCOV_PREFIX and GCOV_PREFIX_STRIP. Set GCOV_PREFIX to the folder you want the output files to be in. Note : GCOV_PREFIX and GCOV_PREFIX_STRIP are important variable to export       
+The –coverage option here is used to compile and link code needed for coverage analysis. You will find a menu.gcno file in the folder. Next we need to export two variables namely GCOV_PREFIX and GCOV_PREFIX_STRIP. Set GCOV_PREFIX to the folder you want the output files to be in. 
+Note : GCOV_PREFIX and GCOV_PREFIX_STRIP are important variable to export       
+       
         $ ls
-        menu.cpp  menu.out  menu.gcno  data    // you can see the new file menu.gcno
+        menu.cpp  menu.out  menu.gcno      // you can see the new file menu.gcno
         
         $ mkdir gtest
         $ cd gtest
