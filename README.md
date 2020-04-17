@@ -1,4 +1,4 @@
-# c++codecoverage
+# C++ Code Coverage
 
 Step 1: Take Ubuntu machine
       prerequite :
