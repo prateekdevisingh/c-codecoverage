@@ -107,7 +107,7 @@ Now its time to enjoy the fruits of your labor 😛 . Go into the res folder and
         
 look for index.html , simply open this file in any browser . 
 
-## For result matching, check image like i have stored in git repo folder name = end-result-look-after-complete-steps/index.html , you already download.
+## For result matching, check image like i have stored in git repo folder name = end-result-look-after-complete-steps/index.html with your index.html.
      
  
     
